@@ -5,3 +5,4 @@ function todo(){
 	newItem.appendChild(text)
 	document.getElementById("todolist").appendChild(newItem)
 }
+document.getElementById("click").onclick = function() {todo()};
