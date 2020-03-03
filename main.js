@@ -9,6 +9,7 @@ function todo(){
 document.getElementById("click").onclick = function() {todo()};
 //item deletion script
 function del(){
-	
+	var item1 = document.getElementById('todolist');
+	item1.removeChild(item1.childNodes[0]);
 }
 document.getElementById("cross").onclick = function() {del()};
